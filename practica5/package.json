@@ -1,0 +1,15 @@
+{
+  "name": "practica5",
+  "version": "1.0.0",
+  "description": "Practica 5",
+  "main": "practica5.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "learn",
+    "javascript"
+  ],
+  "author": "BrandonDevU95",
+  "license": "ISC"
+}
