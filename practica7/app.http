@@ -1,0 +1,25 @@
+### Listar todos los koders
+GET http://localhost:3000/koders
+
+### Crear un koder
+POST http://localhost:3000/koders
+Content-type: application/json
+
+{
+    "name": "Brandon Vargas",
+    "generation": 32,
+    "gender": "M",
+    "age": 25,
+    "isActive": true
+}
+
+### Eliminar un koder
+DELETE http://localhost:3000/koders/:name
+Content-Type: application/json
+
+{
+    "name": "Brandon Vargas"
+}
+
+### Elimitar todos los koders
+DELETE http://localhost:3000/koders
